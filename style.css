@@ -1,0 +1,344 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Rubik:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1em;
+    text-align: center;
+    background-color: white;
+    font-family: 'rubik', sans-serif;
+}
+
+.purple {
+    width: 16.5em;
+    height: 41em;
+    background-image:linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%)) ;
+    border-radius: 0px 0px 16em 0px;
+    position: absolute;
+    z-index: -1;
+    left: -2em;
+}
+a{
+    text-decoration: none;
+    color:linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%)) ;
+}
+
+.position{
+    position: absolute;
+}
+
+.grey{
+    width: 14em;
+    height: 100vh;
+    margin-left: 16em;
+    margin-top: -10em;
+    background-color: hsl(270, 20%, 96%) ;
+    border-radius: 16em 0px 0px 0px;
+    z-index: -1;
+}
+
+.phone{
+    background-color: hsl(270, 20%, 96%);
+    width: 20.9em;
+    text-align: center;
+    margin: auto;
+    border: 0.7em solid white;
+    border-radius: 2em;
+    position: relative;
+    top:6em;
+    margin-bottom: 10em;
+    box-shadow: 1em 1em 80px rgba(0, 0, 0, 0.144);
+}
+
+.avatar{
+    width: 35px;
+    border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 100%);
+    float: left;
+    margin-top: 3px;
+    margin-left: 21px;
+}
+
+.toplayout{
+    background: linear-gradient(220deg, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    border-radius: 20px 20px 7px 7px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.dot{
+    background-color: white;
+    width:5px;
+    height: 5px;
+    border-radius: 50%;
+    float: right;
+    margin-right: 1.8em;
+    margin-top: -30px;
+}
+
+.dota{
+    background-color: white;
+    width:5px;
+    height: 5px;
+    border-radius: 50%;
+    float: right;
+    margin-right: 1.8em;
+    margin-top: -21px;
+}
+
+.dotb{
+    background-color: white;
+    width:5px;
+    height: 5px;
+    border-radius: 50%;
+    float: right;
+    margin-right: 1.8em;
+    margin-top: -12px;
+}
+
+.dogimg{
+    width: 2.7em;
+    border-radius: 11px;
+    box-shadow: 0.3em 0.7em 80px rgba(0, 0, 0, 0.068);
+    margin-right: 2px;
+}
+
+.dogrow{
+    text-align: right;
+    margin-right: 10px;
+}
+
+.whitetop{
+    position: relative;
+    top:-0.6em;
+    background-color: hsl(0, 0%, 100%);
+    width: 11em;
+    height: 2em;
+    margin-left: 4.5em;
+    border-radius: 1.2em;
+    margin-bottom: 7px;
+}
+
+h4{
+    margin-left: 4.4em;
+    color:hsl(0, 0%, 100%);
+    font-weight: 500;
+     margin-bottom: 3px;
+}
+
+.Par-layout{
+    margin-left: 5.5em;
+    color: hsl(276, 100%, 81%);
+    font-size: 0.8em;
+}
+ 
+.chat{
+    font-size: 12px;
+    width:65%;
+    font-weight: 400;
+    color: hsl(276, 55%, 52%);
+    background-color:  hsla(277, 58%, 86%, 0.26);
+    border-radius: 15px 15px 15px 5px;
+    padding: 10px;
+    padding-bottom: 8px;
+    padding-left: 13px;
+    margin: 10px 12px;
+    text-align: left;
+    line-height: 1.4em;
+}
+
+.chat.chr{
+    margin-top: 15px;
+}
+
+.chat.cht{
+    margin-bottom: 17px;
+}
+
+.chatwhite{
+    width:68%;
+    margin: auto;
+    margin-right: 0;
+    background-color: white;
+    box-shadow: 0.3em 0.1em 80px rgba(0, 0, 0, 0.068);
+    border-radius: 15px 15px 5px 15px;
+    padding: 5px;
+    margin-top:10px;
+    padding-right: 10px;
+    font-size: 12px;
+    color: hsl(271, 15%, 43%);
+}
+
+.chatwhite.cht{
+    width: 40%;
+    margin-bottom: 30px;
+}
+
+.chatwhite.chr{
+    text-align:left;
+    padding-right: 0px;  
+    padding-left: 1em;
+    line-height: 1.4em;
+}
+
+.lastcolor{
+    background: linear-gradient(90deg, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    border-radius: 15px 15px 15px 5px;
+    width:75%;
+    text-align: right;
+    margin-left: 12px;
+    padding: 5px;
+    height: 2.7em;
+    margin-bottom: 10px;
+}
+
+.pesa{
+    margin-left: 5px;
+    float:left;
+    color: hsl(276, 100%, 93%);
+    font-size: 11px;
+    margin-top: 11px;
+}
+
+.circle{
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    border: 1px solid whitesmoke;
+    float: left;
+    margin:9px;
+}
+
+.six{
+    margin-right: 20px;
+    margin-top: 5px;
+    font-size: 1.2em;
+    font-weight: 500;
+    color:whitesmoke;
+}
+
+.bottomlayout{
+    width: 90%;
+    height: 2.5em;
+    background-color: white;
+    border-radius: 20px ;
+    margin: 15px 15px;
+    margin-top: 20px;
+    box-shadow: 0.3em 0.1em 80px rgba(0, 0, 0, 0.068);
+    text-align: left;
+}
+
+.typo{
+    font-size: 0.8em;
+    color:hsl(300, 6%, 6%);
+    opacity: 30%;
+    margin-left: 23px;
+    padding-top: 14px;
+}
+
+.darkcircle{
+    width:30px;
+    height: 30px;
+    background-color: hsl(271, 36%, 24%);
+    border-radius: 50%;
+    margin-left: 15.2em;
+    margin-top: -24px;
+}
+
+h1{
+    color: hsl(271, 36%, 24%);
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.wha{
+    color:hsl(270, 7%, 64%);
+    margin: 25px 90px 50px 90px ;
+    line-height: 2;
+}
+
+.wo{
+    color: white;
+    width:2em;
+    height: 3em;
+    margin-top: -9px;
+    margin-left: 0px;
+}
+
+.chew{
+
+        position: relative;
+        margin-top: 0px;
+        margin-right: 15px;
+        opacity: 0.8;
+}
+
+.chev::before{
+    content: '';
+    position: absolute;
+    top: 53px;
+    left: 11px;
+    width: 2px;
+    height: 7px;
+    background-color: #fff;
+    transform: skew(-28deg,0deg);
+  }
+  .chev::after{
+    content: '';
+    position: absolute;
+    top: 60px;
+    left: 11px;
+    width: 2px;
+    height: 7px;
+    background-color: #fff;
+    transform: skew(28deg,0deg);
+  }
+
+  @media  only screen  and (min-width:1200px) {
+
+    .purple{
+        width: 32%;
+        border-radius: 0px 0px 250px 245px;
+        height: 105%;
+        margin-left: -4.5em;
+    }
+
+    .grey{
+        position: absolute;
+        right: 0px;
+        bottom: -10em;
+        width:20%;
+    }
+
+    .phone{
+        position: absolute;
+        left: 18.7em;
+        
+    }
+
+    .position{
+        position: absolute;
+        top:20em;
+        width:30%;
+        right:15em;
+        text-align: left;
+    }
+
+    .wha{
+        margin: 0;
+        margin-top: 25px;
+    }
+
+    .lastleft{
+        position: absolute;
+        bottom: -10em;
+        left:45%;
+    }
+
+
+  }
