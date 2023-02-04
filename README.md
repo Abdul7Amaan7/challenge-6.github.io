@@ -2,6 +2,8 @@
 
 ![Design preview for the Chat app CSS illustration coding challenge](./design/desktop-preview.jpg)
 
+https://abdul7amaan7.github.io/challenge-6.github.io/
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
